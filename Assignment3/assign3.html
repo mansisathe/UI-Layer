@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<style>
+    .table{
+        margin-left: 50px;
+    }
+    
+</style> 
+ <script src="js\app.js"></script>
+ <h3>Order Data</h3>
+<table class="table" border="3px";>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th scope="col">Items</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Unit Price</th>
+        <th scope="col">total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Maggiee</td>
+        <td>
+            <button onclick="onClick(event)" id="button1">-</button>
+        <span id="result">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button onclick="onClick(event)" id="button2">+</button>
+            </td>
+        </td>
+        <td>50</td>
+        <td>500</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Pepsi</td>
+        <td>
+            <button onclick="onClick1(event)" id="button3">-</button>
+        <span id="result1">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button onclick="onClick1(event)" id="button4">+</button>
+        </td>
+        <td>60</td>
+        <td>500</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
