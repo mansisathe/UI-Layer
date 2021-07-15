@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo02-Heading</title>
+    <!-- Internal CSS -->
+    <style>
+        body{
+            background-color: #687864;
+            color: #F7F9F8;
+
+        }
+    </style>
+    <!-- External CSS : Always use this way of styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Internal JS-->
+    <script>
+        console.log("Line 25: JS called")
+    </script>
+    <!-- External JS : Always use this way of styling -->
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <h1>Heading tag 1</h1>
+    <!-- Inline JS -->
+    <h2 style="color:#8FC1E3">Heading tag 2</h2>
+    <!-- Inline JS: this is must
+    because js code is called on event of the html elemnt
+    -->
+    <h3 onclick="alert('Welcome to JavaScript')">Heading tag 3</h3>
+    <h4 onmouseover="alert('mouseover called')">Heading tag 4</h4>
+    <h5>Heading tag 5</h5>
+    <h6>Heading tag 6</h6>
+    <img src="images/google.jpg" alt="" width="500px" height="500px"/>
+</body>
+
+</html>
