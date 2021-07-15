@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(233, 211, 178);
+    color : black;
+}
+#event{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+}
+#box{
+    color: red;
+}
+.color{
+    color: rebeccapurple;
+}
