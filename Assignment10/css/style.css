@@ -1,0 +1,43 @@
+/* Tag Selector : body */
+body{
+    /* background-color: darkslategray; */
+    color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    /* white =#ffffff black=000000 rgb */
+    color: #4433ff;
+    font-size:30px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    text-align: center;
+    margin:0 16px 0 16px;
+    padding: 0 16px;
+    border: red solid 1px;
+}
+footer{
+    background-color: white;
+    display: inline;
+    text-align: center;
+    width: 100%;
+}
+
+footer h5{
+    background-color: lightseagreen;
+    color: navy;
+}
+nav{
+    margin: 0 16px;
+    position: fixed;
+    top:0;
+    right: 400px;
+}
+nav ul li{
+    color: orangered;
+    text-decoration: none;
+    display: inline;
+  
+}
