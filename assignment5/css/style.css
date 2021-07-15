@@ -1,0 +1,13 @@
+body{
+    background-color:antiquewhite ;
+    border:2px solid green;
+   }
+  @media only screen and (max-width: 500px) {  
+      body {  
+           background-color:rgb(91, 43, 155);  
+           border:2px solid white;
+      }  
+       h1{
+           font-size: inherit;
+       }
+   }
