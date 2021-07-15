@@ -1,0 +1,28 @@
+body{
+    background-color: cornsilk;
+    color: black;
+}
+/* table, th, td{
+    border: solid 2px red;
+}  */
+table{
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.border{
+    padding: 0 5px;
+    border: solid 2px red;
+}
+tbody tr td{
+    text-align: justify;
+}
+tr:nth-child(even) td {
+    background-color: rgb(33, 128, 216);
+    color:navy;
+    }
+    tr:nth-child(odd) td {
+        background-color: rgb(155,155,155);
+        color:navy;
+        }
